@@ -1,0 +1,20 @@
+# NooJ V7
+# Dictionary
+#
+# Language is: fr
+#
+# Alphabetical order is not required.
+#
+# Use inflectional & derivational paradigms' description files (.nof), e.g.:
+# Special Command: #use paradigms.nof
+#
+# Special Features: +NW (non-word) +FXC (frozen expression component) +UNAMB (unambiguous lexical entry)
+#                   +FLX= (inflectional paradigm) +DRV= (derivational paradigm)
+#
+# Special Characters: '\' '"' ' ' ',' '+' '-' '#'
+#
+#use noojkouloud.nof
+#use _Exemple.nof
+
+réussir,V+FLX=Avertir
+éteindre,V+FLX=Craindre

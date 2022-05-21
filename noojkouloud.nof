@@ -1,0 +1,29 @@
+# NooJ V7
+# Inflectional/Derivational description
+#
+# Language is: fr
+#
+# Generic Commands:
+# <B>: keyboard Backspace
+# <C>: change Case
+# <D>: Duplicate current char
+# <E>: Empty string
+# <L>: keyboard Left arrow
+# <N>: go to end of Next word form
+# <P>: go to end of Previous word form
+# <R>: keyboard Right arrow
+# <S>: delete/Suppress current char
+# Arguments for commands <B>, <L>, <N>, <P>, <R>, <S>:
+# xx number: repeat xx times
+# W: whole word
+# Examples
+# <R3>: go right 3 times
+# <LW>: go to beg. of word
+#
+# Language-Specific Commands:
+# (None)
+#
+# Special Characters: '=' '<' '>' '\' '"' ':' '|' '+' '-' '/' '$' '_' ';' '#'
+#
+Avertir=<E>/INF | <B>s/PR+s+1 | <B>s/PR+s+2 | <B>t/PR+s+3 | <B>ssons/PR+p+1 | <B>ssez/PR+p+2 | <B>ssent/PR+p+3;
+Craindre=<E>/INF | <B3>s/PR+s+1 | <B3>s/PR+s+2 | <B3>t/PR+s+3 | <B4>gnons/PR+p+1 | <B4>gnez/PR+p+2 | <B4>gnent/PR+p+3;

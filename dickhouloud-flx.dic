@@ -1,0 +1,34 @@
+# NooJ V7
+# Dictionary
+#
+# Language is: fr
+#
+# Alphabetical order is not required.
+#
+# Use inflectional & derivational paradigms' description files (.nof), e.g.:
+# Special Command: #use paradigms.nof
+#
+# Special Features: +NW (non-word) +FXC (frozen expression component) +UNAMB (unambiguous lexical entry)
+#                   +FLX= (inflectional paradigm) +DRV= (derivational paradigm)
+#
+# Special Characters: '\' '"' ' ' ',' '+' '-' '#'
+#
+# This dictionary was automatically built from C:\Users\users\Documents\NooJ\fr\Lexical Analysis\dickhouloud.dic
+#
+#use noojkouloud.nof
+#use _Exemple.nof
+#
+réussir,réussir,V+FLX=Avertir+INF
+réussis,réussir,V+FLX=Avertir+PR+s+1
+réussis,réussir,V+FLX=Avertir+PR+s+2
+réussit,réussir,V+FLX=Avertir+PR+s+3
+réussissons,réussir,V+FLX=Avertir+PR+p+1
+réussissez,réussir,V+FLX=Avertir+PR+p+2
+réussissent,réussir,V+FLX=Avertir+PR+p+3
+éteindre,éteindre,V+FLX=Craindre+INF
+éteignons,éteindre,V+FLX=Craindre+PR+p+1
+éteignez,éteindre,V+FLX=Craindre+PR+p+2
+éteignent,éteindre,V+FLX=Craindre+PR+p+3
+éteins,éteindre,V+FLX=Craindre+PR+s+1
+éteins,éteindre,V+FLX=Craindre+PR+s+2
+éteint,éteindre,V+FLX=Craindre+PR+s+3
